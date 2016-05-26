@@ -1,6 +1,6 @@
 {
   "name": "passport-cisco-spark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cisco Spark authentication strategy for Passport.",
   "keywords": ["passport", "cisco", "spark", "cisco-spark", "auth", "authentication", "identity"],
   "repository": {
