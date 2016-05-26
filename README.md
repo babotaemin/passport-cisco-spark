@@ -61,6 +61,8 @@ For a complete, working example, refer to the [login example](https://github.com
     $ npm install --dev
     $ make test
 
+[![Build Status](https://travis-ci.org/bastien-md/passport-cisco-spark.svg?branch=master)](https://travis-ci.org/bastien-md/passport-cisco-spark)
+
 ## Credits
 
   - [Jared Hanson](http://github.com/jaredhanson)
