@@ -5,14 +5,14 @@
   "keywords": ["passport", "cisco", "spark", "cisco-spark", "auth", "authentication", "identity"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bastien-md/passport-cisco-spark.git"
+    "url": "git://github.com/bmoyroud/passport-cisco-spark.git"
   },
   "bugs": {
-    "url": "https://github.com/bastien-md/passport-cisco-spark/issues"
+    "url": "https://github.com/bmoyroud/passport-cisco-spark/issues"
   },
   "author": {
     "name": "Bastien Moyroud",
-    "url": "https://github.com/bastien-md"
+    "url": "https://github.com/bmoyroud"
   },
   "license": "MIT",
   
