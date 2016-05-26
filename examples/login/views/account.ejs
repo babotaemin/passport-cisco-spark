@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Passport - Cisco Spark Example</title>
+	</head>
+	<body>
+		<% if (!user) { %>
+			<p>
+			<a href="/">Home</a> | 
+			<a href="/login">Log In</a>
+			</p>
+		<% } else { %>
+			<p>
+			<a href="/">Home</a> | 
+			<a href="/account">Account</a> | 
+			<a href="/logout">Log Out</a>
+			</p>
+		<% } %>
+		
+		<p>id: <%= user.id %></p>
+        <p>displayName: <%= user.displayName %></p>
+        <p>emails: 
+            <ul>
+                <% for(var i=0; i< user.emails.length; i++) {%>
+                <li><%= user.emails[i] %></li>
+                <% } %>
+            </ul>
+        </p>
+        <p>avatar:
+            <% if (user.avatar) { %>
+                <a href="<%= user.avatar %>"> View user's avatar </a>
+            <% } else { %>
+                No avatar for this user
+            <% } %>        
+        </p>
+        <p>created: <%= new Date(user.created) %></p>
+
+	</body>
+</html>
