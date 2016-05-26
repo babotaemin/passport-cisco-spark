@@ -1,4 +1,4 @@
-# Passport-Instagram
+# Passport - Cisco Spark
 
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
 with [Cisco Spark](https://www.ciscospark.com/) using the OAuth 2.0 API.
