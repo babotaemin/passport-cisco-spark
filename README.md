@@ -54,14 +54,14 @@ application:
 
 ## Examples
 
-For a complete, working example, refer to the [login example](https://github.com/bastien-md/passport-cisco-spark/tree/master/examples/login).
+For a complete, working example, refer to the [login example](https://github.com/bmoyroud/passport-cisco-spark/tree/master/examples/login).
 
 ## Tests
 
     $ npm install --dev
     $ make test
 
-[![Build Status](https://travis-ci.org/bastien-md/passport-cisco-spark.svg?branch=master)](https://travis-ci.org/bastien-md/passport-cisco-spark)
+[![Build Status](https://travis-ci.org/bmoyroud/passport-cisco-spark.svg?branch=master)](https://travis-ci.org/bmoyroud/passport-cisco-spark)
 
 ## Credits
 
